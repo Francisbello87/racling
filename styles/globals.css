@@ -19,7 +19,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   width: 100%;
-  max-width: 120rem;
+
   height: 100vh;
   background: linear-gradient(
     180deg,
@@ -28,36 +28,39 @@ body {
     #121212 77.78%,
     #080808 100%
   );
-  padding: 1.875rem 4.3125rem;
+  padding: 30px 69px;
   color: #fff;
+}
+.main-wrapper {
+  max-width: 1920px;
 }
 ul {
   display: flex;
-  gap: 2.875rem;
+  gap: 46px;
 }
 .wrapper {
   position: relative;
   width: 100%;
-  max-width: 120rem;
+  max-width: 1920px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2.3556rem;
+  padding-top: 37.6896px;
 }
 .Nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: .9375rem;
-  border-bottom: .0625rem solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .cart {
   position: relative;
 }
 .cart .icon {
-  width: .4938rem;
-  height: .4938rem;
+  width: 7.9008px;
+  height: 7.9008px;
   background-color: #00ff8f;
   position: absolute;
   border-radius: 50%;
@@ -74,62 +77,62 @@ ul {
   left: 0;
   right: 0;
   top: 0;
-  bottom: -7.75rem;
+  bottom: -280.8px;
   margin: auto;
 }
 
 .main-content .content p {
-  top: 1.5rem;
-  left: 9.375rem;
+  top: 72px;
+  left: 150px;
   color: white;
   opacity: 0.6;
   position: absolute;
-  max-width: 18.5967rem;
+  max-width: 297.5472px;
   text-align: right;
   text-transform: uppercase;
-  font-size: .875rem;
-  line-height: 1.25rem;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .main-content .content .bicycle-content {
   position: absolute;
-  top: -42.1875rem;
-  left: -55rem;
-  width: 22.7006rem;
-  height: 6.2731rem;
+  top: -691px;
+  left: -880px;
+  width: 363.2096px;
+  height: 128.3696px;
 }
 .footer {
-  width: 100.0637rem;
-  height: 15.2701rem;
+  width: 1601.0192px;
+  height: 244.3216px;
   flex-shrink: 0;
-  border-radius: 1.875rem 1.875rem 0rem 0rem;
+  border-radius: 30px 30px 0px 0px;
   background: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(1.5625rem);
+  backdrop-filter: blur(25px);
   position: fixed;
   bottom: 0;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2.0625rem 9.3444rem;
+  padding: 33px 149.5104px;
 }
 
 .footer-content {
   display: flex;
   align-items: center;
-  gap: 18.25rem;
+  gap: 292px;
 }
 .footer-content .footer-content-text {
   display: flex;
   flex-direction: column;
-  gap: 3.25rem;
-  font-size: 1.09rem;
+  gap: 52px;
+  font-size: 17.44px;
   color: #fff;
 }
 .footer-content .footer-content-text .footer-text-title {
   font-weight: 600;
 }
 
-.footer-content .footer-content-text .footer-desc{
-  opacity: .5;
+.footer-content .footer-content-text .footer-desc {
+  opacity: 0.5;
 }
